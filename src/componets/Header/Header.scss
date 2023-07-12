@@ -1,0 +1,115 @@
+header {
+  min-height: 217px;
+
+  .header-title_block {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .logo-block {
+      color: rgba(0, 0, 0, 0.7);
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -0.24px;
+      text-transform: uppercase;
+    }
+    .addres {
+      li {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 5px;
+        a {
+          margin-left: 5px;
+          color: #212864;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+    .contact-block {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      a {
+        color: #212864;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+    }
+    .button-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      button {
+        color: #212864;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        padding: 14px 36px;
+        border-radius: 25px;
+        border: 1px solid #212864;
+        transition: 0.2s;
+        margin-bottom: 10px;
+        &:hover {
+          color: white;
+          background-color: #212864;
+        }
+      }
+      div {
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }
+  .header-long_block {
+    height: 57px;
+    width: 100%;
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        color: #fff;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: .1s;
+        &:hover {
+          color: #ffc239;
+        }
+      }
+    }
+    .line-header {
+      width: 1px;
+      height: 35px;
+      background: rgba(255, 255, 255, 0.4);
+    }
+  }
+  .header-blue-block {
+    padding: 18px 5%;
+    background: #15193d;
+  }
+  .header-purple-block {
+    padding: 12px 5%;
+    background: #8c93d1;
+  }
+}
